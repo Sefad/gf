@@ -6,7 +6,7 @@
 	float: left;
 	border-radius: 5px;
 	border: 1px solid #565656;
-	margin: 0 5px;
+	margin: 0 calc( (100% / 2) - 150px);
 	margin-top: 19px;
 	position: relative;
 	padding: 6px 0;
