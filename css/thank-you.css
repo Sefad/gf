@@ -1,0 +1,267 @@
+/*
+
+*/
+
+.version.thank_you /* version checker */
+{
+	color: #000003;
+	background-color: #E6EC75;
+}
+
+#page
+{
+	z-index: 1;
+	min-height: 876px;
+	background-image: none;
+	border-width: 0px;
+	border-color: #000000;
+	background-color: transparent;
+	width: 100%;
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u5583
+{
+	z-index: 12;
+	min-height: 89px;
+	background-color: #000000;
+	padding-bottom: 31px;
+}
+
+#u5583_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	max-width: 1170px;
+}
+
+#u5595
+{
+	z-index: 14;
+	height: 54px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 35px;
+	width: 3.42%;
+	left: 3%;
+	background: transparent url("../images/logo2.png") no-repeat center center;
+	background-size: contain;
+}
+
+.hidpi #u5595
+{
+	background-image: url("../images/logo2_2x.png");
+}
+
+#pu5596-4
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-top: 42px;
+	margin-left: 83px;
+}
+
+#u5596-4
+{
+	z-index: 15;
+	width: 195px;
+	min-height: 22px;
+	background-color: transparent;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: '__Lato_5';
+	font-weight: 500;
+	position: relative;
+}
+
+#u5597-4
+{
+	z-index: 19;
+	width: 205px;
+	min-height: 16px;
+	background-color: transparent;
+	opacity: 0.66;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=66)";
+	filter: alpha(opacity=66);
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	font-size: 6px;
+	line-height: 7px;
+	font-family: '__Lato_5';
+	font-weight: 400;
+	margin-top: 1px;
+	position: relative;
+}
+
+.js body
+{
+	visibility: hidden;
+}
+
+.js body.initialized
+{
+	visibility: visible;
+}
+
+#u5583-bw
+{
+	z-index: 12;
+	min-height: 89px;
+}
+
+#u5577-4
+{
+	z-index: 2;
+	width: 464px;
+	min-height: 76px;
+	background-color: transparent;
+	text-align: center;
+	font-size: 34px;
+	line-height: 41px;
+	font-family: '__Lato_5';
+	font-weight: 400;
+	margin-top: 122px;
+	position: relative;
+	margin-left: 30.18%;
+}
+
+#u5580-6
+{
+	z-index: 6;
+	min-height: 116px;
+	background-color: transparent;
+	text-align: center;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: '__Lato_5';
+	font-weight: 400;
+}
+
+#u5580-6-bw
+{
+	z-index: 6;
+	min-height: 116px;
+	margin-bottom: 50px;
+}
+
+#u5604-4
+{
+	z-index: 23;
+	width: 394px;
+	background-color: transparent;
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: '__Lato_5';
+	font-weight: 400;
+	margin-top: 127px;
+	position: relative;
+	margin-left: 33.17%;
+}
+
+#pu5607
+{
+	margin-top: 50px;
+	width: 100%;
+}
+
+#u5607
+{
+	z-index: 27;
+	height: 89px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 12px;
+	width: 17.18%;
+	left: 10.35%;
+	background: transparent url("../images/mail_logo_rgb_web.png") no-repeat left top;
+	background-size: cover;
+}
+
+#u5618
+{
+	z-index: 28;
+	height: 65px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 15px;
+	width: 14.02%;
+	left: 33.17%;
+	background: transparent url("../images/yandex_logo_en-svg%20copy.png") no-repeat left top;
+	background-size: cover;
+}
+
+#u5628
+{
+	z-index: 29;
+	height: 96px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 5px;
+	width: 19.75%;
+	left: 52.83%;
+	background: transparent url("../images/rambler.png") no-repeat left top;
+	background-size: cover;
+}
+
+#u5646
+{
+	z-index: 30;
+	height: 96px;
+	position: relative;
+	margin-right: -10000px;
+	width: 15.39%;
+	left: 77.18%;
+	background: transparent url("../images/mail_ru_transparent_logo-190x110.png") no-repeat left top;
+	background-size: cover;
+}
+
+#u5586
+{
+	z-index: 13;
+	height: 366px;
+	background-color: #E5E5E5;
+}
+
+#u5586-bw
+{
+	z-index: 13;
+	margin-top: -225px;
+	margin-bottom: -225px;
+	height: 366px;
+}
+
+#muse_css_mq,.html
+{
+	background-color: #FFFFFF;
+}
+
+body
+{
+	position: relative;
+	min-width: 320px;
+}
+
+@font-face
+{
+	font-family: '__Lato_5';
+	src: url('../fonts/lato-medium.eot');
+	src: local('☺'), url('../fonts/lato-medium.woff') format('woff'), url('../fonts/lato-medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__Lato_5';
+	src: url('../fonts/lato-regular.eot');
+	src: local('☺'), url('../fonts/lato-regular.woff') format('woff'), url('../fonts/lato-regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
