@@ -254,7 +254,8 @@ input[type="submit"] {
 #subscr-block-1562 {
 }
 #subscr-form-1562 td {
-	font:normal 16px Arial,Helvetica,sans-serif;
+	font-size:16px;
+	font-weight: 400;
 	text-align:center;
 	padding:0;
 }
@@ -272,10 +273,10 @@ input[type="submit"] {
 #subscr-form-1562 a.oferta:hover {
 	text-decoration: none;
 }
-#subscr-form-1562 a.jc_compile_btn, input.form-submit.jc_compile_btn {
+#subscr-form-1562 a.jc_compile_btn, input.form-submit {
 	border:solid 1px #E0E0E0;margin-top:5px;
 }
-#subscr-form-1562 a.jc_compile_btn span, #subscr-form-1562 input.form-submit.jc_compile_btn {
+#subscr-form-1562 a.jc_compile_btn span, #subscr-form-1562 input.form-submit {
 	padding-top:7px;
 	margin-top: 23px;
 	margin-right: 10px;
