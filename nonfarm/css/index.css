@@ -393,85 +393,85 @@ iframe { width: 804px; height: 452px; }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
 	.headerConteiner {
-		padding: 0px !important;
+		padding: 0px;
 	}
 	.logoConteiner, .phoneBlock {
-		margin-top: 10px !important;
-		flex-basis: 100% !important;
-		justify-content: center !important;
+		margin-top: 10px;
+		flex-basis: 100%;
+		justify-content: center;
 	}
 	.phoneBlock .number, .phoneBlock .subText {
-		text-align: center !important;
+		text-align: center;
 	}
 	.info {
-		order: 3 !important;
-		flex-basis: 100% !important;
+		order: 3;
+		flex-basis: 100%;
 	}
 	.ul li {
-		width: 100% !important;
+		width: 100%;
 	}
 	.info li {
-		width: 80% !important;
-		margin: 20px 0 0 0 !important;
-		border-radius: 0 0 5px 5px !important;
-		padding: 10% !important;
+		width: 80%;
+		margin: 20px 0 0 0;
+		border-radius: 0 0 5px 5px;
+		padding: 10%;
 	}
 	.main {
 		justify-content: center;
-		padding: 0 !important;
+		padding: 0;
 	}
 	.videoBlock {
-		flex-basis: 100% !important;
-		padding-bottom: 0 !important;
+		flex-basis: 100%;
+		padding-bottom: 0;
 	}
 	.videoConteiner {
-		position: relative !important;
-	    padding-bottom: 56.25% !important;
-	    height: 0 !important;
-	    overflow: hidden !important;
+		position: relative;
+	    padding-bottom: 56.25%;
+	    height: 0;
+	    overflow: hidden;
 	}
 	iframe {
 		position: absolute;
-		top: 0 !important;
-	    left: 0 !important;
-		width: 100% !important;
-		height: 100% !important;
+		top: 0;
+	    left: 0;
+		width: 100%;
+		height: 100%;
 	}
 	.subscribeBlock {
-		margin: 0 !important;
+		margin: 0;
 	}
 	.textBlock {
-		width: 95% !important;
-		margin: 0 0 20px 0 !important;
-		text-align: center !important;
-		padding: 0 2.5% !important;
+		width: 95%;
+		margin: 0 0 20px 0;
+		text-align: center;
+		padding: 0 2.5%;
 	}
 	.subscribeForm {
-		float: none !important;
+		float: none;
 	}
 	input[type="submit"] {
-		width: 100% !important;
-		padding: 9px 20px 13px 20px !important;
+		width: 100%;
+		padding: 9px 20px 13px 20px;
 	}
 	.textBlock .title {
-		font-size: 28px !important;
+		font-size: 28px;
 	}
 	#subscr-form-1562 a.jc_compile_btn span, #subscr-form-1562 input[type="submit"] {
-		width: 100% !important;
-		margin: 10px auto 0 auto !important;
-		padding: 9px 20px 13px 20px !important;
-		left: 0 !important;
+		width: 100%;
+		margin: 10px auto 0 auto;
+		padding: 9px 20px 13px 20px;
+		left: 0;
 	}
 	.subscribeForm img {
-		left: 10px !important;
-		margin-top: 18px !important;
+		left: 10px;
+		margin-top: 18px;
 	}
 	.subscribeForm p {
-		left: 13px !important;
-		margin-top: 22px !important;
+		left: 13px;
+		margin-top: 22px;
 	}
 	table {
-		width: 250px !important;
+		width: 250px;
 	}
 }
 
