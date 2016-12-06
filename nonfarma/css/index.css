@@ -16,6 +16,7 @@ ul li {
 	text-transform: none;
 	border-radius: 0 5px 5px 5px;
 	margin-top: 20px;
+	z-index: 100;
 	background: linear-gradient(rgba(43, 43, 41, 1), rgba(5, 4, 1, 0.9));
 }
 .firstInfo:hover li {
