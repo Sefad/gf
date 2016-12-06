@@ -23,7 +23,6 @@ $( document ).ready(function() {
 		first.on('click touchstart', function(e) {
 			if(first.hasClass("hover")){
 			} else {
-				alert("check");
 				first.addClass("hover");
 			}
 		});
