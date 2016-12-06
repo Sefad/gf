@@ -1,6 +1,6 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<script src="../scripts/jquery-1.8.3.min.js" type="text/javascript"></script>
+	<script src="../../scripts/jquery-1.8.3.min.js" type="text/javascript"></script>
 	<link rel="shortcut icon" href="../../images/favicon.ico?3783896850"/>
 	<script src="js/default.js" type="text/javascript"></script>
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
@@ -71,19 +71,55 @@
 			<div class="headerTitle">
 				Ваши прогнозы
 			</div>
-			<div class="oprosBlock">
+			<div class="oprosBlock firstPoll">
 				<div class="questions">
-					Как вы считаете, какие выйдут данные при официальном прогнозе в 171 000?
+					Какая из компаний<br>получила наибольшую прибыль за 2016 год?
 				</div>
-				<form method="post" action="">
-					<div class="answersBlock">
-						<label><input type="radio" name="oprs" value="1"/><span></span><div class="radioText">Хуже ожиданий</div></label>
-						<label><input type="radio" name="oprs" value="2"/><span></span><div class="radioText">Лучше ожиданий</div></label>
-						<label><input type="radio" name="oprs" value="3"/><span></span><div class="radioText">Согласно прогнозу</div></label>
-						<label><input type="radio" name="oprs" value="4"/><span></span><div class="radioText">Официальный прогноз</div></label>
+				<div class="answersBlock">
+					<label><input type="radio" name="oprs" value="wrong"/><span></span><div class="radioText">Apple</div></label>
+					<label><input type="radio" name="oprs" value="right"/><span></span><div class="radioText">Google</div></label>
+					<label><input type="radio" name="oprs" value="wrong"/><span></span><div class="radioText">Газпром</div></label>
+					<label><input type="radio" name="oprs" value="wrong"/><span></span><div class="radioText">Disney</div></label>
+				</div>
+				<input type="submit" onclick="pollFirst()" value="Далее" name="send">
+			</div>
+			<div class="oprosBlock secondPoll">
+				<div class="questions">
+					Какая из компаний<br>получила наименьшую прибыль за 2016 год?
+				</div>
+				<div class="answersBlock">
+					<label><input type="radio" name="oprs" value="wrong"/><span></span><div class="radioText">Aliexpress</div></label>
+					<label><input type="radio" name="oprs" value="wrong"/><span></span><div class="radioText">Роснано</div></label>
+					<label><input type="radio" name="oprs" value="right"/><span></span><div class="radioText">SpaceX</div></label>
+					<label><input type="radio" name="oprs" value="wrong"/><span></span><div class="radioText">Nike</div></label>
+				</div>
+				<input type="submit" onclick="secondFirst()" value="Далее" name="send">
+			</div>
+			<div class="oprosBlock thirdPoll">
+				<div class="questions">
+					Какое главное приемущество портфеля акций?
+				</div>
+				<div class="answersBlock">
+					<label><input type="radio" name="oprs" value="right"/><span></span><div class="radioText">Повышенная доходность при минимальных рисках?</div></label>
+					<label><input type="radio" name="oprs" value="wrong"/><span></span><div class="radioText">Нет приемуществ</div></label>
+					<label><input type="radio" name="oprs" value="wrong"/><span></span><div class="radioText">Ценные бумаги одного вида</div></label>
+					<label><input type="radio" name="oprs" value="wrong"/><span></span><div class="radioText">Отсутствие рисков</div></label>
+				</div>
+				<input type="submit" onclick="thirdFirst()" value="Отправить" name="send">
+			</div>
+			<div class="oprosBlock results">
+				<div class="questions">
+					Результаты:
+				</div>
+				<div class="resultBlock">
+					<div class="resultCircls">
+						<div class="firstResult"><div class="resultCircl"></div><div class="question">Какая из компаний получила наименьшую прибыль за 2016 год? (Google)</div></div>
+						<div class="secondResult"><div class="resultCircl"></div><div class="question">Какая из компаний получила наименьшую прибыль за 2016 год? (SpaceX)</div></div>
+						<div class="thirdResult"><div class="resultCircl"></div><div class="question">Какое главное приемущество портфеля акций? (Повышенная доходность, минимальные риски)</div></div>
 					</div>
-					<input type="submit" value="Отправить" name="send">
-				</form>
+					<div class="resultText"></div>
+				</div>
+				<input type="submit" value="Что-нибуть еще" name="send">
 			</div>
 			<div class="actionButton">
 				Начните зарабатывать на non-farm с нами

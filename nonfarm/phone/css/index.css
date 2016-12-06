@@ -326,6 +326,51 @@ input[type="submit"] {
 }
 iframe { width: 804px; height: 452px; }
 
+* Poll */
+
+.firstPoll {
+	display: block;
+}
+.secondPoll {
+	display: none;
+}
+.thirdPoll {
+	display: none;
+}
+.results {
+	display: none;
+}
+
+.resultBlock {	
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+}
+.resultBlock .resultCircls .resultCircl {
+	width: 10px;
+	height: 10px;
+	border-radius: 20px;
+	float: left;
+	margin-top: 10px;
+}
+.resultBlock .firstResult, .resultBlock .secondResult, .resultBlock .thirdResult {
+	margin-bottom: 10px;
+}
+.question {
+	padding-left: 20px;
+}
+.oprosBlock.results{
+	padding-top: 20px;
+	height: 300px;
+}
+.resultBlock .resultText {
+	
+}
+.actionButton.last { height: 57px; }
+.good { background-color: #149E27; }
+.bad { background-color: #BA2121; }
+
+
 /* tablet version */
 @media screen and (min-width: 1200px) {
 	.subscribeForm p {
@@ -400,8 +445,8 @@ table {
 @font-face
 {
 	font-family: '__Lato_5';
-	src: url('../fonts/lato-light.eot');
-	src: local('☺'), url('../fonts/lato-light.woff') format('woff'), url('../fonts/lato-light.svg') format('svg');
+	src: url('../../fonts/lato-light.eot');
+	src: local('☺'), url('../../fonts/lato-light.woff') format('woff'), url('../../fonts/lato-light.svg') format('svg');
 	font-weight: 300;
 	font-style: normal;
 }
@@ -409,8 +454,8 @@ table {
 @font-face
 {
 	font-family: '__Lato_5';
-	src: url('../fonts/lato-regular.eot');
-	src: local('☺'), url('../fonts/lato-regular.woff') format('woff'), url('../fonts/lato-regular.svg') format('svg');
+	src: url('../../fonts/lato-regular.eot');
+	src: local('☺'), url('../../fonts/lato-regular.woff') format('woff'), url('../../fonts/lato-regular.svg') format('svg');
 	font-weight: 400;
 	font-style: normal;
 }
@@ -418,8 +463,8 @@ table {
 @font-face
 {
 	font-family: '__Lato_5';
-	src: url('../fonts/lato-medium.eot');
-	src: local('☺'), url('../fonts/lato-medium.woff') format('woff'), url('../fonts/lato-medium.svg') format('svg');
+	src: url('../../fonts/lato-medium.eot');
+	src: local('☺'), url('../fonts/lato-medium.woff') format('woff'), url('../../fonts/lato-medium.svg') format('svg');
 	font-weight: 500;
 	font-style: normal;
 }
@@ -427,8 +472,8 @@ table {
 @font-face
 {
 	font-family: '__Lato_5';
-	src: url('../fonts/lato-bold.eot');
-	src: local('☺'), url('../fonts/lato-bold.woff') format('woff'), url('../fonts/lato-bold.svg') format('svg');
+	src: url('../../fonts/lato-bold.eot');
+	src: local('☺'), url('../../fonts/lato-bold.woff') format('woff'), url('../../fonts/lato-bold.svg') format('svg');
 	font-weight: 700;
 	font-style: normal;
 }
