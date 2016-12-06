@@ -1,5 +1,6 @@
 html { background: linear-gradient(rgba(135, 111, 32, 1), rgba(25, 24, 18, 1)); }
-body { font-family: '__Lato_5'; max-width: 1200px; margin: 0 auto;}
+body { font-family: '__Lato_5'; margin: 0; padding: 0; }
+.content { max-width: 1200px; margin: 0 auto; }
 header {}
 ul {
 	padding: 0;
@@ -256,7 +257,123 @@ input[type="submit"] {
 	font-weight: 300;
 }
 
+/* Form call */
+
+/* Forms */
+
+.overlay {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.75);
+	position: fixed;
+	top: 0;
+}
+.formBox {
+	height: 417px;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #545454;
+	background-color: #2B2B2B;
+	background-color: rgba(25,25,25,0.92);
+	border-radius: 5px;
+	-pie-background: rgba(25,25,25,0.92);
+	padding-top: 40px;
+	margin-top: 40px;
+	position: relative;
+}
+.cancel {
+	position: absolute;
+	top:0;
+	right:0;
+	width: 40px;
+	height: 28px;
+	text-align: center;
+	padding-top: 12px;
+	z-index: 1100;
+}
+#u6914{top:-1000px;}
+#subscr-form-9168 input.form-submit.jc_compile_btn{margin-top:13px;width:250px;height:60px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;background:#FAB70F;border:solid 0px #1a1a1a;box-shadow: 0 0px #000000;transition-duration: 0.150s;transition-delay: 0s;transition-timing-function: linear;}
+#subscr-form-9168 input.form-submit.jc_compile_btn:hover{border:solid 0px #1a1a1a;background:#FAB70F;box-shadow: 0 0px #000000;}
+#subscr-block-9168{}
+#subscr-form-9168 td{font:normal 16px Arial,Helvetica,sans-serif;text-align:center;padding:0;}
+#subscr-form-9168 input.form-submit{text-align:center;width:auto;}#subscr-form-9168 #form-submit-9168{border:solid 1px #e0e0e0;margin-top:5px;}#subscr-form-9168 a.oferta{color:#034795;text-decoration:underline;}#subscr-form-9168 a.oferta:hover{text-decoration:none;}#subscr-form-9168 a.jc_compile_btn span, #subscr-form-9168 input.form-submit.jc_compile_btn{font:normal 18px Helvetica;padding-top:7px;margin-bottom:-5px;}#subscr-form-9168 input[type=text]{font:normal 16px Helvetica;background:#ededed;color:#000000;text-align:center;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;border:#FFFFFF 0px solid;padding:7px 10px;margin:5px 10px 8px;min-width:234px;height:35px;transition-duration: 0.150s;transition-delay: 0s;transition-timing-function: linear;}#subscr-form-9168 input[type=text]:hover{background:#ededed;border:#FFFFFF 0px solid;}
+#u7542-4 {
+	z-index: 787;
+	background-color: transparent;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: '__Lato_5';
+	font-weight: 400;
+	left: -1px;
+	position: relative;
+	margin-bottom: 17px;
+	margin-top: 24px;
+}
+#u7545-6 {
+	z-index: 791;
+	background-color: transparent;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+	line-height: 19px;
+	font-family: '__Lato_5';
+	font-weight: 400;
+	left: -1px;
+	position: relative;
+	width: 100%;
+}
+#u6913 {
+	min-height: 117px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+	width: 100%;
+}
+.popup_anchor { width: 100%; }
+
 /* form */
+
+.call {
+	margin-top: 6px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.call .callConteiner {
+	width: 180px;
+	margin: 0 auto;
+	
+}
+.call .callConteiner img {
+	opacity: 0.69;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=69)";
+	filter: alpha(opacity=69);
+	width: 15px;
+	margin-top: 3px;
+	float: left;
+}
+.call .callConteiner p {
+	background-color: transparent;
+	opacity: 0.66;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=66)";
+	filter: alpha(opacity=66);
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+	margin-top: 2px;
+	margin-left: 5px;
+	margin-bottom: 0;
+	float: left;
+}
+.call img:hover, .call p:hover, .headerLinksBlock p:hover {
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
 
 #subscr-block-1562 {
 }
@@ -326,7 +443,7 @@ input[type="submit"] {
 }
 iframe { width: 804px; height: 452px; }
 
-* Poll */
+/* Poll */
 
 .firstPoll {
 	display: block;
