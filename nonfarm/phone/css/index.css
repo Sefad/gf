@@ -581,7 +581,7 @@ table {
 {
 	font-family: '__Lato_5';
 	src: url('../../fonts/lato-medium.eot');
-	src: local('☺'), url('../fonts/lato-medium.woff') format('woff'), url('../../fonts/lato-medium.svg') format('svg');
+	src: local('☺'), url('../../fonts/lato-medium.woff') format('woff'), url('../../fonts/lato-medium.svg') format('svg');
 	font-weight: 500;
 	font-style: normal;
 }
