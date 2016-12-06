@@ -384,6 +384,65 @@ iframe { width: 804px; height: 452px; }
 	}
 }
 
+@media screen and (max-width: 768px){
+	.headerConteiner {
+		padding: 0px;
+	}
+	.logoConteiner, .phoneBlock {
+		flex-basis: 100%;
+		justify-content: center;
+	}
+	.phoneBlock .number, .phoneBlock .subText {
+		text-align: center;
+	}
+	.info {
+		order: 3;
+		flex-basis: 100%;
+	}
+	.ul li {
+		width: 100%;
+	}
+	.info li {
+		width: 80%;
+		margin: 20px 0 0 0;
+		border-radius: 0 0 5px 5px;
+		padding: 10%;
+	}
+	.main {
+		justify-content: center;
+		padding: 0;
+	}
+	.videoBlock {
+		flex-basis: 100%;
+		padding-bottom: 0;
+	}
+	.videoConteiner {
+		position: relative;
+	    padding-bottom: 56.25%;
+	    height: 0;
+	    overflow: hidden;
+	}
+	iframe {
+		position: absolute;
+		top: 0;
+	    left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.subscribeBlock {
+		margin: 0;
+	}
+	.textBlock {
+		width: 95%;
+		margin: 0 0 20px 0;
+		text-align: center;
+		padding: 0 2.5%;
+	}
+	.subscribeForm {
+		float: none;
+	}
+}
+
 @font-face
 {
 	font-family: '__Lato_5';
