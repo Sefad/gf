@@ -9,7 +9,7 @@ ul li {
 	position: absolute;
 	display:  none;
 	list-style-type: none;
-	width: 100%;
+	width: 588px;
 	padding: 40px 30px;
 	font-size: 14px;
 	font-weight: 400;
@@ -19,12 +19,6 @@ ul li {
 	z-index: 100;
 	background: linear-gradient(rgba(43, 43, 41, 1), rgba(5, 4, 1, 0.9));
 }
-.info li {
-	width: 80%;
-	margin: 20px 0 0 0;
-	border-radius: 0 0 5px 5px;
-	padding: 10%;
-}
 .info:hover li {
 	display: block;
 }
@@ -33,13 +27,17 @@ ul li {
 	border-radius: 5px 5px 0 0;
 	text-decoration: none;
 }
-.info {
-	order: 3;
-	flex-basis: 100%;
+.secondInfo li {
+	width: 50%;
+	max-width: 588px;
+}
+.thirdInfo li {
+	margin-left: -449px;
+	border-radius: 5px 0 5px 5px;
 }
 .headerConteiner {
 	min-height: 130px;
-	padding: 0;
+	padding: 0 50px;
 	display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
@@ -51,9 +49,7 @@ ul li {
 .logoConteiner {
 	display: -webkit-flex;
 	display: flex;
-	margin-top: 10px;
-	flex-basis: 100%;
-	justify-content: center;
+	flex-basis: 259px;
 }
 .logoConteiner img {
 	height: 40px;
@@ -101,19 +97,26 @@ ul li {
 .trigger {
 	width: 100%;
 }
+.firstInfo {
+	flex-basis: 167px;
+}
+.secondInfo {
+	flex-basis: 186px;
+}
+.thirdInfo {
+	flex-basis: 199px;
+}
 .phoneBlock {
 	display: -webkit-flex;
 	display: flex;
+	flex-basis: 216px;
 	flex-wrap: wrap;
-	margin-top: 10px;
-	flex-basis: 100%;
-	justify-content: center;
-	text-align: center;
 }
 .phoneBlock .number {
 	font-size: 24px;
 	color: white;
 	font-weight: 300;
+	text-align: right;
 	width: 100%;
 }
 .phoneBlock .subText{
@@ -123,6 +126,7 @@ ul li {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 	filter: alpha(opacity=80);
 	font-weight: 300;
+	text-align: right;
 	width: 100%;
 	display: none;
 }
@@ -132,16 +136,16 @@ ul li {
 	display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	align-items: center;
 	align-content: space-around;
 	padding-top: 15px;
+	padding: 15px 50px;
 	background: rgba(0, 0, 0, 0.3);
-	justify-content: center;
-	padding: 0;
 }
 .videoBlock {
-	flex-basis: 100%;
-	padding-bottom: 0;
+	flex-basis: 804px;
+	padding-bottom: 75px;
 }
 .videoBlock .title{
 	padding: 35px 0;
@@ -200,25 +204,19 @@ input[type="submit"] {
 	font-size: 14px;
 	border-radius: 5px;
 	border: 1px solid #fff;
+	padding: 4px 20px 8px 20px;
 	margin-top: 40px;
 	cursor: pointer;
-	width: 100%;
-	padding: 9px 20px 13px 20px;
 }
 
 .subscribeBlock {
-	margin: 0px;
+	margin-left: 100px;
 }
 .textBlock {
 	color: white;
+	width: 520px;
+	margin-right: 120px;
 	float: left;
-	width: 95%;
-	margin: 0 0 20px 0;
-	text-align: center;
-	padding: 0 2.5%;
-}
-.textBlock .title {
-	font-size: 28px;
 }
 .subscribeBlock .title {
 	font-size: 36px;
@@ -230,31 +228,32 @@ input[type="submit"] {
 	font-weight: 400;
 }
 .subscribeForm {
-	float: none;
+	float: left;
 }
 .subscribeForm input {
 	text-align: center;
 }
 .subscribeForm img {
 	position: relative;
-	left: 10px;
-	margin-top: 18px;
+	left: 3px;
 	height: 20px;
 	width: 21px;
 	float: left;
 	margin-left: 5px;
+	margin-top: 29px;
 }
 .subscribeForm p {
 	position: relative;
-	left: 13px;
-	margin-top: 22px;
+	left: 10px;
 	text-align: left;
 	float: left;
 	color: white;
 	opacity: 0.7;
 	font-size: 12px;
 	font-weight: 300;
+	margin-top: 25px;
 }
+
 /* form */
 
 #subscr-block-1562 {
@@ -283,10 +282,14 @@ input[type="submit"] {
 	border:solid 1px #E0E0E0;margin-top:5px;
 }
 #subscr-form-1562 a.jc_compile_btn span, #subscr-form-1562 input[type="submit"] {
+	padding-top:7px;
+	margin-top: 23px;
+	margin-right: 10px;
+	width: 96px;
 	float: right;
-	width: 100%;
-	margin: 10px auto 0 auto;
-	padding: 9px 20px 13px 20px;
+	padding-left: 12px;
+	position: relative;
+	left: -3px;
 }
 #subscr-form-1562 input[type=text] {
 	color:#000;
@@ -323,27 +326,160 @@ input[type="submit"] {
 	width:262px;
 	line-height:30px;
 }
-.videoConteiner {
-	position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
+iframe { width: 804px; height: 452px; }
+
+/* tablet version */
+@media screen and (min-width: 1200px) {
+	.subscribeForm p {
+		width: 140px;
+	}
 }
-iframe {
-	position: absolute;
-	top: 0;
-    left: 0;
-	width: 100%;
-	height: 100%;
+@media screen and (max-width: 1199px) and (min-width: 769px){
+	.logoConteiner {
+		order: 1;
+		flex-basis: 50%;
+	}
+	.phoneBlock {
+		order: 2;
+		flex-basis: 50%;
+	}
+	.info {
+		order: 3;
+	}
+	.subscribeBlock {
+		margin-left; 0;
+		flex-basis: 350px;
+	}
+	.sidebar {
+		order:2;
+	}
+	.textBlock {
+		width: 300px;
+		margin-right: 0;
+	}
+	.videoBlock {
+		padding-bottom: 0;
+		margin: 0 auto;
+	}
+	.videoConteiner {
+		position: relative;
+	    padding-bottom: 56.25%;
+	    height: 0;
+	    overflow: hidden;
+	}
+	iframe { 
+		position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+	.subscribeBlock {
+		margin-left: 0;
+	}
+	.subscribeBlock .text {
+		margin-bottom: 40px;
+	}
+	.sidebar .headerTitle {
+		padding-top: 73px;
+	}
+	.subscribeBlock .title {
+		font-size: 28px;
+	}
+	.subscribeForm p {
+		float: none;
+	}
 }
-table {
-	width: 250px;
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+	.headerConteiner {
+		padding: 0px;
+	}
+	.logoConteiner, .phoneBlock {
+		margin-top: 10px;
+		flex-basis: 100%;
+		justify-content: center;
+	}
+	.phoneBlock .number, .phoneBlock .subText {
+		text-align: center;
+	}
+	.info {
+		order: 3;
+		flex-basis: 100%;
+	}
+	.ul li {
+		width: 100%;
+	}
+	.info li {
+		width: 80%;
+		margin: 20px 0 0 0;
+		border-radius: 0 0 5px 5px;
+		padding: 10%;
+	}
+	.main {
+		justify-content: center;
+		padding: 0;
+	}
+	.videoBlock {
+		flex-basis: 100%;
+		padding-bottom: 0;
+	}
+	.videoConteiner {
+		position: relative;
+	    padding-bottom: 56.25%;
+	    height: 0;
+	    overflow: hidden;
+	}
+	iframe {
+		position: absolute;
+		top: 0;
+	    left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.subscribeBlock {
+		margin: 0;
+	}
+	.textBlock {
+		width: 95%;
+		margin: 0 0 20px 0;
+		text-align: center;
+		padding: 0 2.5%;
+	}
+	.subscribeForm {
+		float: none;
+	}
+	input[type="submit"] {
+		width: 100%;
+		padding: 9px 20px 13px 20px;
+	}
+	.textBlock .title {
+		font-size: 28px;
+	}
+	#subscr-form-1562 a.jc_compile_btn span, #subscr-form-1562 input[type="submit"] {
+		width: 100%;
+		margin: 10px auto 0 auto;
+		padding: 9px 20px 13px 20px;
+		left: 0;
+	}
+	.subscribeForm img {
+		left: 10px;
+		margin-top: 18px;
+	}
+	.subscribeForm p {
+		left: 13px;
+		margin-top: 22px;
+	}
+	table {
+		width: 250px;
+	}
 }
+
 @font-face
 {
 	font-family: '__Lato_5';
 	src: url('../fonts/lato-light.eot');
-	src: local('☺'), url('../../fonts/lato-light.woff') format('woff'), url('../../fonts/lato-light.svg') format('svg');
+	src: local('☺'), url('../fonts/lato-light.woff') format('woff'), url('../fonts/lato-light.svg') format('svg');
 	font-weight: 300;
 	font-style: normal;
 }
@@ -352,7 +488,7 @@ table {
 {
 	font-family: '__Lato_5';
 	src: url('../fonts/lato-regular.eot');
-	src: local('☺'), url('../../fonts/lato-regular.woff') format('woff'), url('../../fonts/lato-regular.svg') format('svg');
+	src: local('☺'), url('../fonts/lato-regular.woff') format('woff'), url('../fonts/lato-regular.svg') format('svg');
 	font-weight: 400;
 	font-style: normal;
 }
@@ -361,7 +497,7 @@ table {
 {
 	font-family: '__Lato_5';
 	src: url('../fonts/lato-medium.eot');
-	src: local('☺'), url('../../fonts/lato-medium.woff') format('woff'), url('../../fonts/lato-medium.svg') format('svg');
+	src: local('☺'), url('../fonts/lato-medium.woff') format('woff'), url('../fonts/lato-medium.svg') format('svg');
 	font-weight: 500;
 	font-style: normal;
 }
@@ -370,7 +506,7 @@ table {
 {
 	font-family: '__Lato_5';
 	src: url('../fonts/lato-bold.eot');
-	src: local('☺'), url('../../fonts/lato-bold.woff') format('woff'), url('../../fonts/lato-bold.svg') format('svg');
+	src: local('☺'), url('../fonts/lato-bold.woff') format('woff'), url('../fonts/lato-bold.svg') format('svg');
 	font-weight: 700;
 	font-style: normal;
 }
