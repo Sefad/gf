@@ -33,14 +33,6 @@ ul li {
 	border-radius: 5px 5px 0 0;
 	text-decoration: none;
 }
-.secondInfo li {
-	width: 50%;
-	max-width: 588px;
-}
-.thirdInfo li {
-	margin-left: -449px;
-	border-radius: 5px 0 5px 5px;
-}
 .headerConteiner {
 	min-height: 130px;
 	display: -webkit-flex;
@@ -104,15 +96,6 @@ ul li {
 }
 .trigger {
 	width: 100%;
-}
-.firstInfo {
-	flex-basis: 167px;
-}
-.secondInfo {
-	flex-basis: 186px;
-}
-.thirdInfo {
-	flex-basis: 199px;
 }
 .phoneBlock {
 	display: -webkit-flex;
