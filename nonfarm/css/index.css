@@ -166,6 +166,7 @@ ul li {
 	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
+	display: none;
 }
 .sidebar .oprosBlock {
 	height: 246px;
@@ -173,6 +174,7 @@ ul li {
 	background: rgba(0, 0, 0, 0.5);
 	border-radius: 5px;
 	padding: 45px 30px;
+	margin-top: 100px;
 }
 .questions {
 	font-size: 14px;
@@ -327,6 +329,50 @@ input[type="submit"] {
 	line-height:30px;
 }
 iframe { width: 804px; height: 452px; }
+
+/* Poll */
+
+.firstPoll {
+	display: block;
+}
+.secondPoll {
+	display: none;
+}
+.thirdPoll {
+	display: none;
+}
+.results {
+	display: none;
+}
+
+.resultBlock {	
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+}
+.resultBlock .resultCircls .resultCircl {
+	width: 10px;
+	height: 10px;
+	border-radius: 20px;
+	float: left;
+	margin-top: 10px;
+}
+.resultBlock .firstResult, .resultBlock .secondResult, .resultBlock .thirdResult {
+	margin-bottom: 10px;
+}
+.question {
+	padding-left: 20px;
+}
+.oprosBlock.results{
+	padding-top: 20px;
+	height: 300px;
+}
+.resultBlock .resultText {
+	
+}
+.actionButton.last { height: 57px; }
+.good { background-color: #149E27; }
+.bad { background-color: #BA2121; }
 
 /* tablet version */
 @media screen and (min-width: 1200px) {

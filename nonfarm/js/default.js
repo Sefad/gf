@@ -1,3 +1,50 @@
+var pollFirst = function() {
+	if($('input:radio:checked').val() === "right"){
+		firstAnswer = true;
+	}else{
+		firstAnswer = false;
+	}
+    $(".firstPoll").hide();
+    $(".secondPoll").show();
+    return false;
+};
+var secondFirst = function() {
+	if($('input:radio:checked').val() === "right"){
+		secondAnswer = true;
+	}else{
+		secondAnswer = false;
+	}
+    $(".secondPoll").hide();
+    $(".thirdPoll").show();
+    return false;
+};
+var thirdFirst = function() {
+	if($('input:radio:checked').val() === "right"){
+		thirdAnswer = true;
+	}else{
+		thirdAnswer = false;
+	}
+	if(firstAnswer){
+		$(".firstResult .resultCircl").addClass("good");
+	}else{
+		$(".firstResult .resultCircl").addClass("bad");
+	}
+	if(secondAnswer){
+		$(".secondResult .resultCircl").addClass("good");
+	}else{
+		$(".secondResult .resultCircl").addClass("bad");
+	}
+	if(thirdAnswer){
+		$(".thirdResult .resultCircl").addClass("good");
+	}else{
+		$(".thirdResult .resultCircl").addClass("bad");
+	}
+	$(".actionButton").addClass("last");
+	$(".resultText").html("Отличный результат.");
+    $(".thirdPoll").hide();
+    $(".results").show();
+    return false;
+};
 $( document ).ready(function() {
 	var first = $(".firstInfo"),
 		second = $(".secondInfo"),
