@@ -46,9 +46,35 @@ var thirdFirst = function() {
     return false;
 };
 $( document ).ready(function() {
+	$("input[name=lead_phone]").mask("9 (999) 999-9999");
 	var first = $(".firstInfo"),
 		second = $(".secondInfo"),
 		third = $(".thirdInfo");
+	$(".call").on("click", function() {
+		$(".overlay").show();
+	});
+	$(document).mouseup(function (e){ // событие клика по веб-документу
+		var div = $(".formBox"); // тут указываем ID элемента
+		var cancel = $(".cancel");
+		if ((!div.is(e.target) // если клик был не по нашему блоку
+		    && div.has(e.target).length === 0) || cancel.is(e.target) || cancel.has(e.target).length != 0) { // и не по его дочерним элементам
+			$(".overlay").hide(); // скрываем его
+		}
+	});
+	$(document).bind( "touchstart", function(e){
+	    var div = $(".formBox"); // тут указываем ID элемента
+	    var cancel = $(".cancel");
+		if ((!div.is(e.target) // если клик был не по нашему блоку
+		    && div.has(e.target).length === 0) || cancel.is(e.target) || cancel.has(e.target).length != 0) { // и не по его дочерним элементам
+			$(".overlay").hide(); // скрываем его
+		}
+	});
+	$(".cancel").on("click", function() {
+		$(".overlayWedge").click();
+	});
+	$(".cancel").bind( "touchstart", function(e){
+		$(".overlayWedge").click();
+	});
 	if (window.matchMedia("(min-width: 1200px)").matches) {
 	    first.hover(function() {
 		    first.addClass("hover");
