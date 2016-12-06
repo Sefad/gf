@@ -19,34 +19,17 @@ ul li {
 	z-index: 100;
 	background: linear-gradient(rgba(43, 43, 41, 1), rgba(5, 4, 1, 0.9));
 }
-.firstInfo:hover li {
+.info:hover li {
 	display: block;
 }
-
-.firstInfo.hover {
+.info:hover {
 	background: linear-gradient(rgba(57, 57, 55, 1), rgba(43, 43, 41, 1));
 	border-radius: 5px 5px 0 0;
-}
-
-.secondInfo:hover li {
-	display: block;
-}
-
-.secondInfo.hover {
-	background: linear-gradient(rgba(57, 57, 55, 1), rgba(43, 43, 41, 1));
-	border-radius: 5px 5px 0 0;
+	text-decoration: none;
 }
 .secondInfo li {
 	width: 50%;
 	max-width: 588px;
-}
-.thirdInfo:hover li {
-	display: block;
-}
-
-.thirdInfo.hover {
-	background: linear-gradient(rgba(57, 57, 55, 1), rgba(43, 43, 41, 1));
-	border-radius: 5px 5px 0 0;
 }
 .thirdInfo li {
 	margin-left: -449px;
@@ -396,7 +379,9 @@ iframe { width: 804px; height: 452px; }
 	.sidebar .headerTitle {
 		padding-top: 73px;
 	}
-
+	.subscribeBlock .title {
+		font-size: 28px;
+	}
 }
 
 

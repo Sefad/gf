@@ -1,56 +1,42 @@
 $( document ).ready(function() {
+	var first = $(".firstInfo"),
+		second = $(".secondInfo"),
+		third = $(".thirdInfo");
 	if (window.matchMedia("(min-width: 1200px)").matches) {
-	    $('.firstInfo').hover(function() {
-		    $('.firstInfo').addClass("hover");
+	    first.hover(function() {
+		    first.addClass("hover");
 		}, function() {
-		    $('.firstInfo').removeClass("hover");
+		    first.removeClass("hover");
 		});
-		$('.secondInfo').hover(function() {
-		    $('.secondInfo').addClass("hover");
+		second.hover(function() {
+		    second.addClass("hover");
 		}, function() {
-		    $('.secondInfo').removeClass("hover");
+		    second.removeClass("hover");
 		});
-		$('.thirdInfo').hover(function() {
-		    $('.thirdInfo').addClass("hover");
+		third.hover(function() {
+		    third.addClass("hover");
 		}, function() {
-		    $('.thirdInfo').removeClass("hover");
+		    third.removeClass("hover");
 		});
 	};
 	if (window.matchMedia("(max-width: 1199px)").matches) {
-		$('.firstInfo').on('click touchend', function(e) {
-			if($('.firstInfo').hasClass()){
-				$('.firstInfo').removeClass("hover");
+		first.on('click touchstart', function(e) {
+			if(first.hasClass("hover")){
 			} else {
-				$('.firstInfo').addClass("hover");
-				$('.secondInfo').removeClass("hover");
-				$('.thirdInfo').removeClass("hover");
+				alert("check");
+				first.addClass("hover");
 			}
 		});
-		$('.secondInfo').on('click touchend', function(e) {
-			if($('.secondInfo').hasClass()){
-				$('.secondInfo').removeClass("hover");
+		second.on('click touchstart', function(e) {
+			if(second.hasClass("hover")){
 			} else {
-				$('.secondInfo').addClass("hover");
-				$('.firstInfo').removeClass("hover");
-				$('.thirdInfo').removeClass("hover");
+				second.addClass("hover");
 			}
 		});
-		$('.thirdInfo').on('click touchend', function(e) {
-			if($('.thirdInfo').hasClass()){
-				$('.thirdInfo').removeClass("hover");
+		third.on('click touchstart', function(e) {
+			if(third.hasClass("hover")){
 			} else {
-				$('.thirdInfo').addClass("hover");
-				$('.secondInfo').removeClass("hover");
-				$('.firstInfo').removeClass("hover");
-			}
-		});
-		$(document).bind( "touchstart", function(e){
-		    var div = $("ul"); // тут указываем ID элемента
-			if ((!div.is(e.target) // если клик был не по нашему блоку
-			    && div.has(e.target).length === 0)) { // и не по его дочерним элементам
-			    $('.firstInfo').removeClass("hover");
-			    $('.secondInfo').removeClass("hover");
-			    $('.thirdInfo').removeClass("hover");
+				third.addClass("hover");
 			}
 		});
 	};
