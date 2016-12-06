@@ -207,6 +207,8 @@ input[type="submit"] {
 	padding: 4px 20px 8px 20px;
 	margin-top: 40px;
 	cursor: pointer;
+	width: 100%;
+	padding: 9px 20px 13px 20px;
 }
 
 .subscribeBlock {
@@ -235,23 +237,23 @@ input[type="submit"] {
 }
 .subscribeForm img {
 	position: relative;
-	left: 3px;
+	left: 10px;
+	margin-top: 18px;
 	height: 20px;
 	width: 21px;
 	float: left;
 	margin-left: 5px;
-	margin-top: 29px;
 }
 .subscribeForm p {
 	position: relative;
-	left: 10px;
+	left: 13px;
+	margin-top: 22px;
 	text-align: left;
 	float: left;
 	color: white;
 	opacity: 0.7;
 	font-size: 12px;
 	font-weight: 300;
-	margin-top: 25px;
 }
 
 /* form */
@@ -282,14 +284,10 @@ input[type="submit"] {
 	border:solid 1px #E0E0E0;margin-top:5px;
 }
 #subscr-form-1562 a.jc_compile_btn span, #subscr-form-1562 input[type="submit"] {
-	padding-top:7px;
-	margin-top: 23px;
-	margin-right: 10px;
-	width: 96px;
 	float: right;
-	padding-left: 12px;
-	position: relative;
-	left: -3px;
+	width: 100%;
+	margin: 10px auto 0 auto;
+	padding: 9px 20px 13px 20px;
 }
 #subscr-form-1562 input[type=text] {
 	color:#000;
@@ -392,32 +390,13 @@ iframe { width: 804px; height: 452px; }
 	.subscribeForm {
 		float: none;
 	}
-	input[type="submit"] {
-		width: 100%;
-		padding: 9px 20px 13px 20px;
-	}
 	.textBlock .title {
 		font-size: 28px;
 	}
-	#subscr-form-1562 a.jc_compile_btn span, #subscr-form-1562 input[type="submit"] {
-		width: 100%;
-		margin: 10px auto 0 auto;
-		padding: 9px 20px 13px 20px;
-		left: 0;
-	}
-	.subscribeForm img {
-		left: 10px;
-		margin-top: 18px;
-	}
-	.subscribeForm p {
-		left: 13px;
-		margin-top: 22px;
-	}
-	table {
-		width: 250px;
-	}
 }
-
+table {
+	width: 250px;
+}
 @font-face
 {
 	font-family: '__Lato_5';
