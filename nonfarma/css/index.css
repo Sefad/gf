@@ -216,7 +216,7 @@ input[type="submit"] {
 	background: transparent;
 	color: white;
 	box-shadow: none;
-	font-size: 16px;
+	font-size: 14px;
 	border-radius: 5px;
 	border: 1px solid #fff;
 	padding: 4px 20px 8px 20px;
@@ -248,6 +248,27 @@ input[type="submit"] {
 .subscribeForm input {
 	text-align: center;
 }
+.subscribeForm img {
+	position: relative;
+	left: 3px;
+	height: 20px;
+	width: 21px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 29px;
+}
+.subscribeForm p {
+	position: relative;
+	left: 10px;
+	text-align: left;
+	float: left;
+	width: 140px;
+	color: white;
+	opacity: 0.7;
+	font-size: 12px;
+	font-weight: 300;
+	margin-top: 25px;
+}
 
 /* form */
 
@@ -276,11 +297,15 @@ input[type="submit"] {
 #subscr-form-1562 a.jc_compile_btn, input.form-submit {
 	border:solid 1px #E0E0E0;margin-top:5px;
 }
-#subscr-form-1562 a.jc_compile_btn span, #subscr-form-1562 input.form-submit {
+#subscr-form-1562 a.jc_compile_btn span, #subscr-form-1562 input[type="submit"] {
 	padding-top:7px;
 	margin-top: 23px;
 	margin-right: 10px;
+	width: 96px;
 	float: right;
+	padding-left: 12px;
+	position: relative;
+	left: -3px;
 }
 #subscr-form-1562 input[type=text] {
 	color:#000;
