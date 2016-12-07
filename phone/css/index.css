@@ -1282,7 +1282,7 @@ table { margin-left: 8px; }
 	background: rgba(0,0,0,0) url("../../images/put%20your%20design%20here_optimized.png") no-repeat left top;
 	background-color: transparent;
 	background-size: cover;
-	background-position: 10px 65px;
+	background-position: 10px 96px;
 }
 
 #u9637-bw
@@ -1322,7 +1322,7 @@ table { margin-left: 8px; }
 	text-align: center;
 	color: #FFFFFF;
 	letter-spacing: 1px;
-	font-size: 16px;
+	font-size: 15px;
 	font-family: '__Lato_5';
 	font-weight: 700;
 }
@@ -2117,12 +2117,12 @@ table { margin-left: 8px; }
 	min-height: 94px;
 	background-color: transparent;
 	color: #FFFFFF;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 22px;
 	font-family: '__Lato_5';
 	font-weight: 300;
 	margin-left: calc((100% - 261px) / 2 );
-	margin-top: 41px;
+	margin-top: 25px;
 	position: relative;
 }
 
@@ -2138,7 +2138,7 @@ table { margin-left: 8px; }
 	font-family: '__Lato_5';
 	font-weight: 400;
 	margin-left: calc((100% - 275px) / 2 );
-	margin-top: 594px;
+	margin-top: 494px;
 	position: relative;
 }
 
