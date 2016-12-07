@@ -14,7 +14,7 @@
 	width: 300px;
 }
 .logosBlock img { width: 60px; float: left; margin: 6px 20px; }
-
+#u9040-4 a { color: white; }
 #u8362 .logosBlock {
 	margin-top: 27px;
 }
@@ -5626,7 +5626,7 @@ input {
 	border-color: #000000;
 	background-color: #2B2B2B;
 	border-radius: 5px;
-	padding-bottom: 21px;
+	padding-bottom: 15px;
 	position: relative;
 	margin-right: -10000px;
 	left: 5px;
@@ -5661,7 +5661,7 @@ input {
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 22px;
+	margin-top: 16px;
 	left: 23px;
 }
 
@@ -5671,7 +5671,7 @@ input {
 	padding-bottom: 0px;
 	min-height: 20px;
 	width: 249px;
-	margin: 22px -10000px 0px 0px;
+	margin: 16px -10000px 0px 0px;
 }
 
 #u9014.PamphletThumbSelected #u9016-4
@@ -5680,7 +5680,7 @@ input {
 	padding-bottom: 0px;
 	min-height: 20px;
 	width: 249px;
-	margin: 22px -10000px 0px 0px;
+	margin: 16px -10000px 0px 0px;
 }
 
 #u9022
@@ -5814,7 +5814,7 @@ input {
 	width: 319px;
 	border-color: #DEDEDE;
 	background-color: transparent;
-	left: 337px;
+	left: 332px;
 }
 
 #u9009
@@ -5830,7 +5830,7 @@ input {
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 20px;
-	left: 278px;
+	left: 283px;
 }
 
 #u9006:hover #u9009
@@ -5845,7 +5845,7 @@ input {
 #u9008
 {
 	z-index: 806;
-	width: 285px;
+	width: 290px;
 	border-color: #000000;
 	background-color: #2B2B2B;
 	border-radius: 5px;
@@ -5859,7 +5859,7 @@ input {
 #u9006.PamphletThumbSelected #u9008
 {
 	background-color: #F9B30E;
-	width: 285px;
+	width: 290px;
 	min-height: 0px;
 	margin: 1px -10000px 0px 0px;
 }
@@ -5878,7 +5878,7 @@ input {
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 23px;
+	margin-top: 18px;
 	left: 23px;
 }
 
@@ -5888,7 +5888,7 @@ input {
 	padding-bottom: 0px;
 	min-height: 27px;
 	width: 267px;
-	margin: 23px -10000px 0px 0px;
+	margin: 18px -10000px 0px 0px;
 }
 
 #u9022.PamphletThumbSelected #u9023-6 p,#u9006.PamphletThumbSelected #u9007-4 p
