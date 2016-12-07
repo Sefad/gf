@@ -1,7 +1,9 @@
 ﻿/*
 
 */
-
+.orientationError {
+	display: none;
+}
 .logosBlock {
 	float: left;
 	border-radius: 5px;
@@ -85,7 +87,7 @@ input {
 #u7796
 {
 	z-index: 3;
-	height: 7560px;
+	height: 7622px;
 	border-width: 0px;
 	border-color: transparent;
 	background-color: #000000;
@@ -102,7 +104,7 @@ input {
 #u7796:hover
 {
 	border-radius: 10px 10px 0px 0px ;
-	height: 7560px;
+	height: 7622px;
 	min-height: 0px;
 	width: 97.84%;
 	margin: 0px -10000px 0px 0%;
@@ -234,7 +236,7 @@ input {
 #u7970
 {
 	z-index: 109;
-	height: 605px;
+	height: 644px;
 	-pie-box-shadow: none;
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.162);
 	background: transparent url("../../images/u7970-grad.png") repeat-x left top;
@@ -267,7 +269,7 @@ input {
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 3182px;
+	margin-top: 3252px;
 	width: 97.43%;
 }
 
@@ -285,7 +287,7 @@ input {
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 5312px;
+	margin-top: 5362px;
 	width: 99.73%;
 	left: 0.28%;
 }
@@ -404,7 +406,7 @@ input {
 	border-width: 1px;
 	border-color: #545454;
 	border-radius: 5px;
-	padding-top: 86px;
+	padding-top: 65px;
 	padding-bottom: 71.20000000000027px;
 	margin-bottom: -1px;
 	position: relative;
@@ -480,7 +482,7 @@ input {
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 4px;
+	margin-top: 11px;
 }
 
 #u8126-4
@@ -510,6 +512,7 @@ input {
 {
 	z-index: 107;
 	width: 716px;
+	height: 470px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #353535;
@@ -528,14 +531,14 @@ input {
 {
 	z-index: 332;
 	width: 1px;
-	height: 70px;
+	height: 217px;
 	background-color: #FFFFFF;
 	opacity: 0.65;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
 	filter: alpha(opacity=65);
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 211px;
+	margin-top: 65px;
 	left: 31px;
 }
 
@@ -550,7 +553,7 @@ input {
 #u8159-4
 {
 	z-index: 251;
-	width: 281px;
+	width: 268px;
 	min-height: 140px;
 	background-color: transparent;
 	color: #FFFFFF;
@@ -690,7 +693,7 @@ input {
 	font-family: '__Lato_5';
 	font-weight: 400;
 	margin-left: 1px;
-	margin-top: 30px;
+	margin-top: -20px;
 	position: relative;
 }
 
@@ -749,7 +752,7 @@ input {
 	filter: alpha(opacity=80);
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 1584px;
+	margin-top: 1644px;
 	background: transparent url("../../images/logos_optimized.png") no-repeat center center;
 	background-size: contain;
 }
@@ -1331,7 +1334,7 @@ input {
 	border-radius: 0px 0px 5px 0px ;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 26px;
+	margin-top: 65px;
 	background: transparent url("../../images/put%20your%20design%20here_optimized-ieu7980-fr.png") no-repeat left top;
 	background: rgba(0,0,0,0) url("../../images/put%20your%20design%20here_optimized.png") no-repeat left top;
 	background-color: transparent;
@@ -1341,19 +1344,20 @@ input {
 #u7982-4
 {
 	z-index: 155;
-	width: 451px;
+	width: 645px;
 	min-height: 43px;
 	background-color: transparent;
-	line-height: 25px;
+	line-height: 23px;
 	text-align: left;
 	color: #FFFFFF;
 	letter-spacing: 1px;
-	font-size: 21px;
+	font-size: 16px;
 	font-family: '__Lato_5';
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
 	left: 1px;
+	top: -10px;
 }
 
 #u7983
@@ -1366,7 +1370,7 @@ input {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
 	filter: alpha(opacity=65);
 	margin-left: 18px;
-	margin-top: 53px;
+	margin-top: 40px;
 	position: relative;
 }
 
@@ -1374,7 +1378,7 @@ input {
 {
 	padding-bottom: 0px;
 	margin-right: -10000px;
-	margin-top: 1959px;
+	margin-top: 1937px;
 	width: 7.3%;
 	margin-left: 8.6%;
 }
@@ -1398,7 +1402,7 @@ input {
 {
 	z-index: 217;
 	height: 51px;
-	margin-top: 144px;
+	margin-top: 166px;
 	position: relative;
 	width: 98.22%;
 	background: transparent url("../../images/strategy-u9934-fr.png") no-repeat center center;
@@ -1507,7 +1511,7 @@ input {
 {
 	padding-bottom: 0px;
 	margin-right: -10000px;
-	margin-top: 5426px;
+	margin-top: 5466px;
 	width: 75.66%;
 	margin-left: 12.24%;
 }
@@ -1846,7 +1850,7 @@ input {
 	font-family: '__Lato_5';
 	font-weight: 400;
 	margin-left: 5px;
-	margin-top: 1238px;
+	margin-top: 1269px;
 	position: relative;
 }
 
@@ -1900,7 +1904,7 @@ input {
 	line-height: 22px;
 	font-family: '__Lato_5';
 	font-weight: 300;
-	margin-top: 2612px;
+	margin-top: 2682px;
 	position: relative;
 	width: 100%;
 }
@@ -1910,7 +1914,7 @@ input {
 	width: 0.01px;
 	padding-bottom: 0px;
 	margin-right: -10000px;
-	margin-top: 2493px;
+	margin-top: 2533px;
 	margin-left: 147px;
 }
 
@@ -1925,7 +1929,7 @@ input {
 	font-family: '__Lato_5';
 	font-weight: 400;
 	position: relative;
-	top: -330px;
+	top: -370px;
 }
 
 #u8915-4
@@ -2422,7 +2426,7 @@ input {
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 6136px;
+	margin-top: 6174px;
 	left: 358px;
 }
 
@@ -2909,7 +2913,7 @@ input {
 {
 	width: 0.01px;
 	margin-right: -10000px;
-	margin-top: 5551px;
+	margin-top: 5590px;
 	margin-left: 551px;
 }
 
@@ -5088,7 +5092,7 @@ input {
 	height: 261px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 5071px;
+	margin-top: 5130px;
 }
 
 #u8707
