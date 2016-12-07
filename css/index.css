@@ -183,7 +183,7 @@ input {
 	width: 0.01px;
 	padding-bottom: 1px;
 	margin-right: -10000px;
-	margin-top: 67px;
+	margin-top: 26px;
 	margin-left: 41px;
 }
 
@@ -2733,14 +2733,14 @@ input {
 #u4362-4
 {
 	z-index: 550;
-	width: 451px;
+	width: 537px;
 	min-height: 43px;
 	background-color: transparent;
-	line-height: 25px;
+	line-height: 23px;
 	text-align: left;
 	color: #FFFFFF;
 	letter-spacing: 1px;
-	font-size: 21px;
+	font-size: 16px;
 	font-family: '__Lato_5';
 	font-weight: 400;
 	position: relative;
@@ -2871,7 +2871,7 @@ input {
 	margin-right: -10000px;
 	margin-top: -1px;
 	left: -1px;
-	padding: 67px 275px 28.092105263158373px 72px;
+	padding: 40px 275px 28.092105263158373px 72px;
 }
 
 #pu600-4,#pu2029-4,#pu6315
@@ -4299,7 +4299,7 @@ input {
 {
 	z-index: 582;
 	width: 642px;
-	height: 198px;
+	height: 128px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #4F4F4F;
@@ -4440,7 +4440,7 @@ input {
 {
 	z-index: 599;
 	width: 642px;
-	height: 209px;
+	height: 214px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #4F4F4F;
@@ -4737,7 +4737,7 @@ input {
 {
 	z-index: 635;
 	width: 642px;
-	height: 283px;
+	height: 150px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #4F4F4F;
