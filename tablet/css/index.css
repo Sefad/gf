@@ -1443,6 +1443,7 @@ input {
 	font-family: '__Lato_5';
 	font-weight: 400;
 	position: relative;
+	top: 16px;
 }
 
 #u8377
@@ -2490,7 +2491,7 @@ input {
 	background-color: rgba(15,15,15,0.64);
 	border-radius: 5px;
 	padding-bottom: 0px;
-	margin-top: 1111px;
+	margin-top: 1092px;
 	position: relative;
 	width: 99.42%;
 	-pie-background: rgba(15,15,15,0.64);
