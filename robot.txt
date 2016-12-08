@@ -1,0 +1,2 @@
+Allow: /
+sitemap: http://glob-finance.ru/sitemap.xml
