@@ -459,7 +459,7 @@ input[type="submit"] {
 	width:262px;
 	line-height:30px;
 }
-iframe { width: 804px; height: 452px; }
+.videoConteiner iframe { width: 804px; height: 452px; }
 
 /* Poll */
 
@@ -551,7 +551,7 @@ iframe { width: 804px; height: 452px; }
 	    height: 0;
 	    overflow: hidden;
 	}
-	iframe {
+	.videoConteiner iframe {
 		position: absolute;
 		top: 0;
 	    left: 0;
