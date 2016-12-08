@@ -1,7 +1,7 @@
 html { background: linear-gradient(rgba(135, 111, 32, 1), rgba(25, 24, 18, 1)); }
 body { font-family: '__Lato_5'; margin: 0; padding: 0; }
 .content { max-width: 1200px; margin: 0 auto; }
-footer .text { height: 200px; width: 90%; background-color: black; padding: 5%; }
+footer .text { width: 90%; background-color: black; padding: 5%; }
 footer .text .first { color: #686868; font-size: 12px; line-height: 14px; font-weight: 300; margin-bottom: 20px; }
 footer .text .second { color: #494949; font-size: 12px; line-height: 14px; font-weight: 300; }
 header {}
@@ -50,6 +50,7 @@ ul li {
 	align-content: space-around;
 	background: linear-gradient(rgba(29, 23, 9, 1), rgba(28, 23, 7, 1));
 }
+.nameOfUl {}
 .logoConteiner {
 	display: -webkit-flex;
 	display: flex;

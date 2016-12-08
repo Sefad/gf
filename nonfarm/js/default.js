@@ -110,7 +110,6 @@ $( document ).ready(function() {
 		}
 		if($(".hover").length > 0){
 			$(".hover").removeClass("hover");
-			console.log(first);
 		}
 	});
 	$(".cancel").on("click", function() {
@@ -145,28 +144,12 @@ $( document ).ready(function() {
 				    && div.has(e.target).length === 0) || cancel.is(e.target) || cancel.has(e.target).length != 0) { // и не по его дочерним элементам
 					$(".overlay").hide(); // скрываем его
 				}
-			} else if($(".hover").length > 0){
-				$(".hover").removeClass("hover");
-				alert(first);
 			}
 		});
-		first.on('click touchstart', function(e) {
-			if(first.hasClass("hover")){
-				first.remove("hover");
-			} else {
-				first.addClass("hover");
-			}
-		});
-		second.on('click touchstart', function(e) {
-			if(second.hasClass("hover")){
-			} else {
-				second.addClass("hover");
-			}
-		});
-		third.on('click touchstart', function(e) {
-			if(third.hasClass("hover")){
-			} else {
-				third.addClass("hover");
+		$(".trigger").on('click touchstart', function(e) {
+			if($(".hover").length > 0){
+				setTimeout('$(".title").click();'
+				, 1000)
 			}
 		});
 	};

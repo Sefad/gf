@@ -1324,14 +1324,16 @@ table { margin-left: 8px; }
 	letter-spacing: 1px;
 	font-size: 15px;
 	font-family: '__Lato_5';
-	font-weight: 700;
+	font-weight: 300;
+	width: 300px;
+	margin: 0 auto;
 }
 
 #u9646-4-bw
 {
 	z-index: 150;
 	min-height: 43px;
-	margin-top: 1597px;
+	margin-top: 1585px;
 }
 
 #pppamphletu9717
@@ -1824,7 +1826,7 @@ table { margin-left: 8px; }
 #u9931
 {
 	z-index: 193;
-	height: 654px;
+	height: 725px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #545454;
@@ -2122,7 +2124,7 @@ table { margin-left: 8px; }
 	font-family: '__Lato_5';
 	font-weight: 300;
 	margin-left: calc((100% - 261px) / 2 );
-	margin-top: 25px;
+	margin-top: 30px;
 	position: relative;
 }
 
@@ -3562,7 +3564,7 @@ table { margin-left: 8px; }
 {
 	z-index: 327;
 	min-height: 34px;
-	margin-top: 272px;
+	margin-top: 282px;
 }
 
 #u10251-6

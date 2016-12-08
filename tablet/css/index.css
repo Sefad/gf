@@ -610,7 +610,7 @@ input {
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 3px;
+	margin-top: 11px;
 	left: 25px;
 }
 
@@ -667,7 +667,7 @@ input {
 	filter: alpha(opacity=65);
 	border-radius: 5px;
 	margin-left: 1px;
-	margin-top: 45px;
+	margin-top: 65px;
 	position: relative;
 }
 
@@ -1425,21 +1425,21 @@ input {
 {
 	width: 0.01px;
 	margin-right: -10000px;
-	margin-top: 2416px;
-	margin-left: 70px;
+	margin-top: 2402px;
+	margin-left: 54px;
 }
 
 #u8158-4
 {
 	z-index: 247;
-	width: 466px;
+	width: 666px;
 	min-height: 40px;
 	background-color: transparent;
 	line-height: 34px;
 	text-align: left;
 	color: #FFFFFF;
 	letter-spacing: 1px;
-	font-size: 28px;
+	font-size: 24px;
 	font-family: '__Lato_5';
 	font-weight: 400;
 	position: relative;
