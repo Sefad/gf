@@ -108,13 +108,9 @@ $( document ).ready(function() {
 		    && div.has(e.target).length === 0) || cancel.is(e.target) || cancel.has(e.target).length != 0) { // и не по его дочерним элементам
 			$(".overlay").hide(); // скрываем его
 		}
-	});
-	$(document).bind( "touchstart", function(e){
-	    var div = $(".formBox"); // тут указываем ID элемента
-	    var cancel = $(".cancel");
-		if ((!div.is(e.target) // если клик был не по нашему блоку
-		    && div.has(e.target).length === 0) || cancel.is(e.target) || cancel.has(e.target).length != 0) { // и не по его дочерним элементам
-			$(".overlay").hide(); // скрываем его
+		if($(".hover").length > 0){
+			$(".hover").removeClass("hover");
+			console.log(first);
 		}
 	});
 	$(".cancel").on("click", function() {
@@ -141,9 +137,21 @@ $( document ).ready(function() {
 		});
 	};
 	if (window.matchMedia("(max-width: 1199px)").matches) {
+		$(document).bind( "touchstart", function(e){
+			if($(".overlay").is(':visible')){
+			    var div = $(".formBox"); // тут указываем ID элемента
+			    var cancel = $(".cancel");
+				if ((!div.is(e.target) // если клик был не по нашему блоку
+				    && div.has(e.target).length === 0) || cancel.is(e.target) || cancel.has(e.target).length != 0) { // и не по его дочерним элементам
+					$(".overlay").hide(); // скрываем его
+				}
+			} else if($(".hover").length > 0){
+				$(".hover").removeClass("hover");
+				alert(first);
+			}
+		});
 		first.on('click touchstart', function(e) {
 			if(first.hasClass("hover")){
-				alert("need to close");
 				first.remove("hover");
 			} else {
 				first.addClass("hover");
