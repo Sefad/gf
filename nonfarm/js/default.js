@@ -143,6 +143,8 @@ $( document ).ready(function() {
 	if (window.matchMedia("(max-width: 1199px)").matches) {
 		first.on('click touchstart', function(e) {
 			if(first.hasClass("hover")){
+				alert("need to close");
+				first.remove("hover");
 			} else {
 				first.addClass("hover");
 			}
