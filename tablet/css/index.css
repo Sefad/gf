@@ -233,16 +233,37 @@ input {
 	background-size: cover;
 }
 
+#timeref9f87870eaebca7b3a954a164e99305 {
+	position: absolute;
+	top: 484px;
+	left: 55px;
+}
+#timeref9f87870eaebca7b3a954a164e99305 span {
+	font-size: 45px !important;
+	
+}
+
+@media (min-width=794px){
+	#timeref9f87870eaebca7b3a954a164e99305 {
+	top: 466px;
+	left: 46px;
+}
+}
+
 #u7970
 {
 	z-index: 109;
 	height: 644px;
 	-pie-box-shadow: none;
+	/*
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.162);
 	background: transparent url("../../images/u7970-grad.png") repeat-x left top;
 	background: -webkit-gradient(linear, center top, center bottom, from(rgba(30,30,30,0)),color-stop(100%, rgba(0,0,0,0.6)));
 	background: -webkit-linear-gradient(top,rgba(30,30,30,0) ,rgba(0,0,0,0.6) 100%);
 	background: linear-gradient(to bottom,rgba(30,30,30,0) ,rgba(0,0,0,0.6) 100%);
+	*/
+	background: url("../../images/banner_transl_tablet.jpg") no-repeat;
+	background-size: cover;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #545454;

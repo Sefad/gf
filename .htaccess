@@ -1,2 +1,2 @@
-# Begin Muse Generated redirects
-# End Muse Generated redirects
+RewriteEngine On
+RewriteRule ^index.html$ / [QSA,R]

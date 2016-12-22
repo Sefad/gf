@@ -2481,17 +2481,28 @@ input {
 	background-color: #1E1E1E;
 	background-size: cover;
 }
+#timeref9f87870eaebca7b3a954a164e99305 {
+	position: absolute;
+	top: 247px;
+	left: 155px;
+}
+#timeref9f87870eaebca7b3a954a164e99305 span {
+	font-size: 60px !important;
+	
+}
 
-#u5859
-{
+#u5859 {
 	z-index: 504;
 	width: 1100px;
 	-pie-box-shadow: none;
+	/*
 	box-shadow: 0px 0px 15px rgba(0,0,0,0.162);
 	background: transparent url("../images/u5859-grad.png") repeat-x left top;
 	background: -webkit-gradient(linear, center top, center bottom, from(rgba(30,30,30,0)),color-stop(100%, rgba(0,0,0,0.6)));
 	background: -webkit-linear-gradient(top,rgba(30,30,30,0) ,rgba(0,0,0,0.6) 100%);
 	background: linear-gradient(to bottom,rgba(30,30,30,0) ,rgba(0,0,0,0.6) 100%);
+	*/
+	background: url("../../images/banner_tranl_site.jpg") no-repeat;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #545454;
@@ -2501,6 +2512,7 @@ input {
 	margin-right: -10000px;
 	margin-top: -1px;
 	left: -1px;
+	height: 375px;
 }
 
 #u4558

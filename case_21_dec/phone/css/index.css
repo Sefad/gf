@@ -170,7 +170,7 @@ ul li {
 }
 .videoBlock .videoConteiner {
 	position: relative;
-	background: url("../../../images/zaglushka.jpg") no-repeat;
+	/*background: url("../../../images/zaglushka.jpg") no-repeat;*/
 	margin-top: 4px;
 	border-radius: 5px;
 	background-size: cover;
